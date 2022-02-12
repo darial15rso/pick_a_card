@@ -3,7 +3,6 @@ suits = ["♦", "♠", "♥", "♣"]
 
 cards = []
 
-
 values.each do |value|
   suits.each do|suit|
     cards << "#{value} of #{suit}"
